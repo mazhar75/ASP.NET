@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BooksDukan")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21d35f125d69458a4bfe0dac4eacd052a3d67c17")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b075005225f7e6e7433723e3d2593789e413f2f")]
 [assembly: System.Reflection.AssemblyProductAttribute("BooksDukan")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BooksDukan")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

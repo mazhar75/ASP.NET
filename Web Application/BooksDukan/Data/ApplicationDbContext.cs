@@ -20,7 +20,7 @@ namespace  BooksDukan.Data{
                 new Category {Id = 3, Name = "History", DisplayOrder = 3 }
             );
             modelBuilder.Entity<Products>().HasData(
-                new Products {Id=1,Title = "Paradoxical Sajid",Author="Arif Azad",Description="Description",Price=99,Price50=70,Price100=50}
+                new Products {Id=1,Title = "Paradoxical Sajid",ISBN="CA-9B08",Author="Arif Azad",Description="Description",Price=99,Price50=70,Price100=50,CategoryId=2,ImageUrl=""}
                 
             );
         }

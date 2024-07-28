@@ -1,5 +1,6 @@
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BooksDukan.Models{
 
@@ -12,6 +13,10 @@ public class Products{
     [MaxLength(30)]
     [DisplayName("Book Title")]
     public string Title { get; set; }
+
+    [Required]
+    [MaxLength(15)]
+    public string ISBN {get;set;}
     
     [Required]
     [MaxLength(30)]
@@ -25,7 +30,7 @@ public class Products{
 
     [Required]
     [Range(1,1000)]
-    [DisplayName("Per Book Price for 1 - 49")]
+    [DisplayName("Price")]
 
     public double Price {get;set;}
 
@@ -38,6 +43,12 @@ public class Products{
     [DisplayName("Per Book Price for 100+")]
 
     public double Price100 {get;set;}
+    [Required]
+    public int CategoryId {get;set;}
+    [ForeignKey("CategoryId")]
+    public Category Category {get;set;}
+    public string ImageUrl {get;set;}
+
 
     
 
